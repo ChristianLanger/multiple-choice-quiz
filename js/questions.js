@@ -1,20 +1,20 @@
 const myQuestions = [
   {
     title: "Question 1 - Unusual Working Hours",
-    question: "If you plan to work on weekends, a prior written authorization by your supervisor is required and the H&S group coordinator should be notified (via whatsapp) if you are in the office on holidays or weekends. Please send him a short message... <p>Select your answer then Confirm.</p>",
+    question: "If you plan to work on weekends or public holidays, a prior written authorization by your supervisor is required and the BIOCON coordinator should be notified...<p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide1.jpg'>",
     answers: {
-      a: "when you come to iDiv and go.",
-      b: "when you are supposed to be in iDiv.",
-      c: "no message required."
+      a: "when you arrive and leave iDiv.",
+      b: "when you arrive at iDiv.",
+      c: "only in case of emergency."
     },
     correctAnswer: "a",
-    correctAnswerText: "That is correct.<p>The H&S group coordinator should be notified if you are in the office on holidays or weekends. For safety reasons, please send him a short message when you come and go.</p>",
-    falseAnswerText: "That's not correct.<p>The iDiv H&S group coordinator should be informed when you come and go.</p>"
+    correctAnswerText: "That is correct.<p>For safety reasons, the BIOCON coordinator should be notified when you arrive and leave iDiv on weekends or public holidays.</p>",
+    falseAnswerText: "That's not correct.<p>The BIOCON coordinator should be informed in any case!</p>"
   },
   {
     title: "Question 2 - Major Accidents",
-    question: "In the event of a serious accident which requires a doctor you must submit an accident report to your university and a copy to the iDiv H&S coordinator. Accident report must be filled in German. How many days after the accident you must submit the report?.<p>Select your answer then Confirm.</p>",
+    question: "In the event of a serious accident which requires a doctor you must submit an accident report to your university and a copy to the iDiv H&S coordinator. Accident reports must be filled in German. How many days after the accident you must submit the report?<p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide2.jpg'>",
     answers: {
       a: "Submit within 2 days of the accident",
@@ -27,16 +27,16 @@ const myQuestions = [
   },
   {
     title: "Question 3 - Outside the office",
-    question: "You plan to go to a field trip to Peneda Geres? Remember: A business trip form has to be submitted, including student assistants.<p>It's lunchtime, you plan to go to the HIT market to buy some food. Are you health insured inside HIT?</p><p>Select your answer then Confirm.</p>",
+    question: "You are planning a field trip to Peneda Geres? Remember: A business trip form has to be submitted.<p>It's lunchtime, you are planning to go to the HIT market to catch some food. Are you health insured inside HIT?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide3.jpg'>",
     answers: {
-      a: "Yes, full coverage is included.",
+      a: "Yes, I'm full covered for sure.",
       b: "No coverage through employer‘s health insurance.",
-      c: "No, the way TO HIT is not covered but inside HIT!"
+      c: "No, the way to HIT is not covered but inside HIT for sure!"
     },
     correctAnswer: "b",
-    correctAnswerText: "That is correct.<p>No coverage through employer‘s health/liability insurance at HIT or cafeteria. The way TO HIT is covered, but not inside!</p>",
-    falseAnswerText: "That´s wrong!<p>You are not health insured inside HIT, only the way TO the supermarket is covered by your health insurance.</p>"
+    correctAnswerText: "That is correct.<p>No coverage through employer‘s health/liability insurance at HIT or cafeteria. The way to HIT is covered, but not inside HIT!</p>",
+    falseAnswerText: "That´s wrong!<p>You are not health insured inside HIT, only the way to the supermarket is covered by your health insurance.</p>"
   },
   {
     title: "Question 4 - Assembly point",
@@ -48,12 +48,12 @@ const myQuestions = [
       c: "X3"
     },
     correctAnswer: "a",
-    correctAnswerText: "That is correct.<p>Our assembly point is opposite the street under the trees.</p>",
+    correctAnswerText: "That is correct.<p>Our assembly point is opposite the main entrance next to the trees.</p>",
     falseAnswerText: "That is not correct.<p>X2 is no assembly point and X3 is the assembly point for Interim III.</p>"
   },
   {
     title: "Question 5 - Fire alarm",
-    question: "Almost there...<p>In case of fire. Alarm & warn people in the building! Fire alarms are located in the hallways! Do you know the location of the fire alarms in our BIOCON hallway?</p><p>Select your answer then Confirm.</p>",
+    question: "Almost there...<p>In case of fire. Alarm & warn people in the building! Fire alarms are located always different per department! Do you know the location of the fire alarms in BIOCON?</p><p>Select your answer then Confirm.</p>",
     background: "<img src='./img/bg_slide5.jpg'>",
     answers: {
       a: "Main entrance door",
