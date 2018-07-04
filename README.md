@@ -5,9 +5,9 @@ A simple dynamic Multiple Choice Quiz based on HTML/Javascript. Questions and an
 Length: 5 questions
 
 
-![Screenshot1](https://home.uni-leipzig.de/idiv/quiz/screens/screen-1.png)
+![Screenshot1](https://home.uni-leipzig.de/idiv/quiz/screens/screenshot-1.png)
 
-![Screenshot2](https://home.uni-leipzig.de/idiv/quiz/screens/screen-2.png)
+![Screenshot2](https://home.uni-leipzig.de/idiv/quiz/screens/screenshot-2.png)
 
-![Screenshot3](https://home.uni-leipzig.de/idiv/quiz/screens/screen-3.png)
+![Screenshot3](https://home.uni-leipzig.de/idiv/quiz/screens/screenshot-3.png)
 
