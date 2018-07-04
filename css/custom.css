@@ -1,0 +1,208 @@
+/*
+   GENERAL STYLES
+-------------------- */
+
+html{
+    height:100%;
+    width:100%;
+}
+body {
+    color: #73879C;
+    background: #EDEDED;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.471;
+}
+h2{
+    font-size:34px;
+    color: #f2b115;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+input[type=radio] {
+    margin-right: 15px;
+}
+.disabled {
+  pointer-events: none !important;
+  opacity: 0.3 !important;
+  cursor: default !important;
+}
+
+.displaynone {
+  display: none !important;
+}
+
+/*
+   TITLE, QUESTIONS AND ANSWERS
+-------------------- */
+
+#center{
+    text-align:center;
+    clear:both;
+    width:1000px; 
+    height:auto;
+    position:relative;
+    top:20px;
+    margin:0 auto; 
+    border:none;
+}
+.quiz-container{
+    position:absolute;
+    border:2px solid #ddd;
+    width:1000px;
+    height:550px;
+    overflow:hidden;
+    text-align: left;
+}
+#title {
+    position: absolute;
+    left: 50px; 
+    top: 20px; 
+    width: 900px; 
+}
+.question, #results {
+    position: absolute; 
+    visibility: visible; 
+    left: 50px; 
+    top: 100px; 
+    width: 370px; 
+    opacity: 1;
+    color: #fff;
+    z-index: 1001;
+}
+#results p {
+    font-size: 20px;
+}
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    position: absolute;
+    top: 260px;
+    left: 50px; 
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+  background: #444;
+  padding: 15px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  width: 330px;
+  font-weight: 400;
+}
+
+.answerText {
+  display: block;
+  position: absolute;
+  right: 120px;
+  top: 260px;
+  width: 350px;
+  opacity: 0.7;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+.answerText p {
+  color: #444;
+}
+
+/*
+   BUTTONS
+-------------------- */
+
+#confirm{
+    position: absolute; 
+    left: 50px; 
+    top: 470px;
+    z-index: 1000;
+}
+
+#next, #submit  {
+    position: absolute; 
+    right: 350px; 
+    top: 470px;
+    z-index: 1000;
+}
+
+/*
+   SLIDES
+-------------------- */
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+/*
+   CHANGE DEFAULT STYLE RADIO BUTTON
+-------------------- */
+
+.answers input[type=radio].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.answers input[type=radio].with-font + label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #535353;
+    width: 1.4em;
+}
+
+/*
+   CHANGE RADIO BUTTON WHEN CLICKED
+-------------------- */
+
+.answers input[type=radio].with-font:focus + label:before {
+    content: "\f00c";
+    font-size: 1.6em;
+    color: green;
+}
+
+/*
+   CHANGE LABEL WHEN CLICKED
+-------------------- */
+
+.answers input[type=radio].with-font:focus + label {
+    background: #fff !important;
+    color: #444;
+}
+
+/*
+   CHANGE LABEL WHEN HOVER
+-------------------- */
+
+.answers input[type=radio].with-font + label:hover {
+  background: #fff !important;
+  color: #444;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
